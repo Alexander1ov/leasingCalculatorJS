@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Leasing calculator</title>
+    <meta name="description" content="Leasing calculator">
+    <link rel="stylesheet" href="./css/calculator.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="calculator">
+        <h1 class="heading">Рассчитайте стоимость автомобиля в лизинг</h1>
+        <div class="data__input">
+            <div class="data__input__cost">
+                <h3>Стоимость автомобиля</h3>
+                <input class="number number__cost" type="number" placeholder="3500000" min="1000000" max="6000000">
+                <input class="range range__cost" type="range" placeholder="3500000" min="1000000" max="6000000">
+                <div class="elem">₽</div>
+            </div>
+            <div class="data__input__first">
+                <h3>Первоначальлный взнос</h3>
+                <input class="number  number__first" type="number" placeholder="1225000">
+                <input class="range  range__first" type="range" min="10" max="60">
+                <div class="elem percent">35%</div>
+            </div>
+            <div class="data__input__term">
+                <h3>Срок лизинга</h3>
+                <input class="number number__term" type="number" placeholder="30" min="1" max="60">
+                <input class="range range__term" type="range" min="1" max="60">
+                <div class="elem">мес.</div>
+            </div>
+        </div>
+        <div class="data__output">
+            <div class="data__output__sum">
+                <h3>Сумма договора лизинга</h3>
+                <div class="sum inTotal">4935843 ₽</div>
+            </div>
+            <div class="data__output__sum">
+                <h3>Ежемесячный платеж от</h3>
+                <div class="sum monthly">123695 ₽</div>
+            </div>
+            <div class="data__output__sum">
+                <input type="submit" value="Оставить заявку" class="btn"></input>
+            </div>
+        </div>
+    </div>
+    <script src="./js/calculator.js"></script>
+</body>
+</html>

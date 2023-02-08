@@ -1,0 +1,104 @@
+@media(max-width: 1439px) {
+    .calculator {
+        margin: 200px auto;
+        width: 1120px;
+    }
+    .number {
+        width: 320px;
+    }
+    .range {
+        width: 255px;
+    }
+    .data__output__sum {
+        width: 320px;
+    }
+    .btn {
+        width: 320px;
+    }
+}
+@media(max-width: 1119px) {
+    .calculator {
+        margin: 10px auto;
+        width: 768px;
+        height: 1013px;
+        padding: 64px 36px;
+    }
+    .data__input {
+        flex-direction: column;
+    }
+    .number {
+        margin: 24px 0 39px 0;
+        width: 696px;
+    }
+    .range {
+        width: 635px;
+    }
+    .data__output {
+        margin: 51px 0 0 0;
+        width: 750px;
+        height: 200px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .sum {
+        margin-top: 8px;
+    }
+}
+@media(max-width: 767px) {
+    .calculator {
+        margin: 10px auto;
+        width: 320px;
+        height: 803px;
+        padding: 44px 21px;
+    }
+    .heading {
+        margin-bottom: 32px;
+        width: 279px;
+        height: 124px;
+        font-size: 34px;
+    }
+    .data__input {
+        margin: 32px 0 0 0;
+    }
+    .data__input h3 {
+        font-size: 14px;
+    }
+    .number {
+        margin: 8px 0 25px 0;
+        width: 270px;
+        height: 60px;
+        font-size: 22px;
+    }
+    .elem{
+        top: 38px;
+        font-size: 22px;
+
+    }
+    .range {
+        top: 88px;
+        left: 0;
+        margin: 0 0 0 20px;
+        width: 230px;
+    }
+    .data__output {
+        margin: 0 10px;
+        width: 250px;
+        height: 130px;
+    }
+    .data__output__sum{
+        width: 200px;
+        height: 70px;
+    }
+    .data__output h3 {
+        font-size: 14px;
+    }
+    .sum{
+        font-size: 22px;
+    }
+    .btn {
+        width: 250px;
+        height: 60px;
+        font-size: 22px;
+    }
+}
